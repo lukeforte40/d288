@@ -27,6 +27,10 @@ Note: The packages should be on the same level of the hierarchy.
 
 Note: Construct a package named config and copy the RestDataConfig.java provided in the laboratory environment to the package. Modify it so that the package and imports have the correct package and import addresses. Copy the application.properties file that is provided in the laboratory environment into your application properties resource file.
 
-    see application.properties, RestDataConfig.java
+    See application.properties, RestDataConfig.java
 
 D.   Write code for the entities package that includes entity classes and the enum designed to match the UML diagram.
+
+    See StatusType.java, Cart.java, CartItem.java, Country.java, Customer.java, Division.java, Excursion.java, Vacation.java
+
+E.   Write code for the dao package that includes repository interfaces for the entities that extend JpaRepository, and add cross-origin support.
