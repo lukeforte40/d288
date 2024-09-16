@@ -31,6 +31,8 @@ Note: Construct a package named config and copy the RestDataConfig.java provided
 
 D.   Write code for the entities package that includes entity classes and the enum designed to match the UML diagram.
 
-    See StatusType.java, Cart.java, CartItem.java, Country.java, Customer.java, Division.java, Excursion.java, Vacation.java
+    See: StatusType.java, Cart.java, CartItem.java, Country.java, Customer.java, Division.java, Excursion.java, Vacation.java
 
 E.   Write code for the dao package that includes repository interfaces for the entities that extend JpaRepository, and add cross-origin support.
+
+    See: CartItemRepository.java, CartRepository.java, CountryRepository.java, CustomerRepository.java, DivisionRepository.java, ExcursionRepository.java, VacationRepository.java

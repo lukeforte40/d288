@@ -33,7 +33,7 @@ public class Excursion {
     private String image_URL;
 
     @CreationTimestamp
-    @Column(name = "created_date")
+    @Column(name = "create_date")
     private Date create_date;
 
     @UpdateTimestamp
@@ -44,6 +44,6 @@ public class Excursion {
     @JoinColumn(name = "vacation_id")
     private Vacation vacation;
 
-    @ManyToMany(mappedBy = "excursion")
+    @ManyToMany(mappedBy = "excursions")
     private Set<CartItem> cartItems;
 }
