@@ -29,7 +29,7 @@ public class Division {
 
     @CreationTimestamp
     @Column(name = "create_date")
-    private Date createDate; // weird formatting
+    private Date createDate;
 
     @UpdateTimestamp
     @Column(name = "last_update")
@@ -40,7 +40,7 @@ public class Division {
     private Country country;
 
     @Column(name = "country_id", insertable = false, updatable = false)
-    private Long countryID;
+    private Long country_id;
 
     @OneToMany(mappedBy = "division", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<Customer> customers;
