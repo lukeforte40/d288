@@ -60,3 +60,7 @@ Note: You do not need to duplicate REST functionality for each repository by cre
 
     See:  CheckoutController.java
 
+I.   Add five sample customers to the application programmatically.
+
+    See: BootStrapData.java
+
