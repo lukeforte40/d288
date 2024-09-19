@@ -37,3 +37,15 @@ E.   Write code for the dao package that includes repository interfaces for the 
 
     See: CartItemRepository.java, CartRepository.java, CountryRepository.java, CustomerRepository.java, DivisionRepository.java, ExcursionRepository.java, VacationRepository.java
 
+F.   Write code for the services package that includes each of the following:
+
+•    a purchase data class with a customer cart and a set of cart items
+
+•    a purchase response data class that contains an order tracking number
+
+•    a checkout service interface
+
+•    a checkout service implementation class
+
+    See: Purchase.java, PurchaseResponse.java, CheckoutService.java, Cart.java, Customer.Java, CheckoutServiceImpl.java, CheckoutController.java
+
