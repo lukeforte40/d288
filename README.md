@@ -49,3 +49,6 @@ F.   Write code for the services package that includes each of the following:
 
     See: Purchase.java, PurchaseResponse.java, CheckoutService.java, Cart.java, Customer.Java, CheckoutServiceImpl.java, CheckoutController.java
 
+G.   Write code to include validation to enforce the inputs needed by the Angular front-end.
+    
+    See: Customer.java
