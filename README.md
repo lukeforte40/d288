@@ -47,8 +47,16 @@ F.   Write code for the services package that includes each of the following:
 
 •    a checkout service implementation class
 
-    See: Purchase.java, PurchaseResponse.java, CheckoutService.java, Cart.java, Customer.Java, CheckoutServiceImpl.java, CheckoutController.java
+    See: Purchase.java, PurchaseResponse.java, CheckoutService.java, Cart.java, Customer.Java, CheckoutServiceImpl.java
 
 G.   Write code to include validation to enforce the inputs needed by the Angular front-end.
     
     See: Customer.java
+
+H.   Write code for the controllers package that includes a REST controller checkout controller class with a post mapping to place orders.
+
+
+Note: You do not need to duplicate REST functionality for each repository by creating methods in Java.
+
+    See:  CheckoutController.java
+
