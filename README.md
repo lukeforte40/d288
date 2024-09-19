@@ -63,4 +63,3 @@ Note: You do not need to duplicate REST functionality for each repository by cre
 I.   Add five sample customers to the application programmatically.
 
     See: BootStrapData.java
-
